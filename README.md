@@ -1,5 +1,7 @@
 <div align="center">
 
+![Official CT DIGITAL GROUP social-share artwork](https://ctdigital.group/brand/social-share.jpg)
+
 # CT DIGITAL GROUP
 ### Corporate Website · Cloudflare Worker · AI-Enabled Experiences
 
