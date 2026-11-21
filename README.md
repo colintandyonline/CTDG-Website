@@ -6,9 +6,9 @@ CT DIGITAL GROUP is a UK-operated digital group building and operating businesse
 
 ## Repository status
 
-**Repository initialized; authoritative website source import pending verification.**
+**Verified production Worker source imported on 21 November 2026 as `worker.js` (commit `6afa465`).**
 
-This README does **not** claim that the current contents reproduce the live site. The production website remains independently deployed and unchanged. Its verified server-side document root has previously been recorded as `/var/www/vhosts/ctdigital.group/httpdocs`; any import must be checked against the actual live deployment and any separate application services before code is committed.
+Cloudflare confirms that both `ctdigital.group` and `www.ctdigital.group` are assigned to the production Worker `ctdigital-group-services`. The imported `worker.js` was retrieved from that Worker via the Cloudflare API and matched byte-for-byte by SHA-256. This Git snapshot does not include private runtime bindings, secrets or any separately deployed services; production remains independently deployed and unchanged.
 
 ## Scope
 
@@ -21,7 +21,7 @@ The Cora service and any operational backends must be inventoried separately bef
 
 ## Source integrity and deployment
 
-- The live website remains the authoritative reference until the source snapshot has been verified.
+- The imported `worker.js` is the verified production source snapshot from 21 November 2026; check Cloudflare for later live changes before development or deployment.
 - Do not import API keys, environment files, credentials, customer records, server backups, caches or deployment secrets.
 - Do not infer or recreate earlier Git commits from historic work.
 - Do not deploy to production merely because a commit was pushed to this repository.
