@@ -1,6 +1,6 @@
 <div align="center">
 
-![Official CT DIGITAL GROUP social-share artwork](https://ctdigital.group/brand/social-share.jpg)
+![CT DIGITAL GROUP — official GitHub project banner](./assets/ctdg-github-banner.png)
 
 # CT DIGITAL GROUP
 ### Corporate Website · Cloudflare Worker · AI-Enabled Experiences
