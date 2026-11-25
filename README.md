@@ -129,3 +129,11 @@ A passing syntax check does not guarantee that every route, accessibility featur
 
 Statistics are a point-in-time GitHub snapshot, not an indication of release readiness.
 <!-- CTDG-ENGINEERING-END -->
+
+<!-- CTDG-TECH-START -->
+## Technology stack
+
+Technologies used in this project.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-B49B00?style=flat-square&logo=javascript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-663399?style=flat-square&logo=css&logoColor=white) ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white)
+<!-- CTDG-TECH-END -->
